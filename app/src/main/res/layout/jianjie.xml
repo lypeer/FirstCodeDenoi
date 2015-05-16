@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/background"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="We Are"
+            android:textStyle="bold"
+            android:textSize="80sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="朝霞支教队"
+            android:textSize="30sp"
+            android:layout_marginBottom="10pt"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="fill_parent"
+            android:background="#696969"
+            android:layout_height="1pt">
+
+            </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:text="  这个地方放一些介绍的文字吧"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

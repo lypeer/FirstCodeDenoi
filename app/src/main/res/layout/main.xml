@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    tools:context=".TestRolateAnimActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <edu.uestc.yang.testrolateanimactivity.MyImageView
+                android:id="@+id/c1"
+                android:layout_width="220px"
+                android:layout_height="440px"
+                android:layout_margin="4px"
+                android:scaleType="matrix"
+                android:src="@drawable/jianjie" />
+            <edu.uestc.yang.testrolateanimactivity.MyImageView
+                android:id="@+id/c2"
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_margin="4px"
+                android:scaleType="matrix"
+
+                android:src="@drawable/jiao" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <edu.uestc.yang.testrolateanimactivity.MyImageView
+                android:id="@+id/c3"
+                android:layout_width="444px"
+                android:layout_height="220px"
+                android:layout_margin="4px"
+                android:scaleType="matrix"
+                android:src="@drawable/chengguo2" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <edu.uestc.yang.testrolateanimactivity.MyImageView
+                    android:id="@+id/c4"
+                    android:layout_width="220px"
+                    android:layout_height="440px"
+                    android:layout_margin="4px"
+                    android:scaleType="matrix"
+                    android:src="@drawable/youshi" />
+                <edu.uestc.yang.testrolateanimactivity.MyImageView
+                    android:id="@+id/c5"
+                    android:layout_width="220px"
+                    android:layout_height="440px"
+                    android:layout_margin="4px"
+                    android:scaleType="matrix"
+                    android:src="@drawable/youshi" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <edu.uestc.yang.testrolateanimactivity.MyImageView
+        android:id="@+id/c6"
+        android:layout_width="672px"
+        android:layout_height="220px"
+        android:layout_margin="4px"
+        android:scaleType="matrix"
+        android:src="@drawable/guanzhu2" />
+</LinearLayout>
